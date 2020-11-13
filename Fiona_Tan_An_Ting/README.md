@@ -10,13 +10,17 @@ For example, create a new conda environment:
 You could also use virtualenv based on your own preference.
 
 Please install the required packages using the following command:
-`pip install -r requirements.txt`
+`pip install jupyterlab
+pip install -U scikit-learn
+pip install libsvm
+pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install opencv-python`
 
 ## Running the Code
 To run the code, simply start up Jupyter Notebook in your terminal.
 E.g. After entering the Python environment, type `jupyter-notebook`
 
-Open the "PCA_LDA_GMM_SVM.ipynb" or "NN.ipynb" file from the Jupyter console and the codes should appear.
+Open the "ee5907_ca2.ipynb" file from the Jupyter console and the codes should appear.
 
 Please note that the dataset should be saved as per the original format under the folder name "PIE", with subfolders labelled from 1 to 68, and placed in the same folder as the Jupyter Notebook ipynb script.
 
