@@ -10,10 +10,10 @@ For example, create a new conda environment:
 You could also use virtualenv based on your own preference.
 
 Please install the required packages using the following command:
-`pip install jupyterlab`
-`pip install -U scikit-learn`
-`pip install libsvm`
-`pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html`
+`pip install jupyterlab`<br>
+`pip install -U scikit-learn`<br>
+`pip install libsvm`<br>
+`pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html`<br>
 `pip install opencv-python`
 
 ## Running the Code
