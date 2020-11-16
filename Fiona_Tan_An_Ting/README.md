@@ -9,7 +9,7 @@ For example, create a new conda environment:
 `conda create --name ee5907_ca2 python=3.6`
 You could also use virtualenv based on your own preference.
 
-Please install the required packages using the following command:
+Please install the required packages using the following commands:<br>
 `pip install jupyterlab`<br>
 `pip install -U scikit-learn`<br>
 `pip install libsvm`<br>
@@ -20,7 +20,8 @@ Please install the required packages using the following command:
 To run the code, simply start up Jupyter Notebook in your terminal.
 E.g. After entering the Python environment, type `jupyter-notebook`
 
-Open the "ee5907_ca2.ipynb" file from the Jupyter console and the codes should appear.
+"PCA_LDA_GMM_SVM.ipynb" contains codes for Sections 1-4 while "NN.ipynb" contains codes for Section 5 of the PDF report. 
+Open the ipynb files from the Jupyter console and the codes should appear.
 
 Please note that the dataset should be saved as per the original format under the folder name "PIE", with subfolders labelled from 1 to 68, and placed in the same folder as the Jupyter Notebook ipynb script.
 
